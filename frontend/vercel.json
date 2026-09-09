@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/categories", "destination": "https://trivia-api-liart.vercel.app/categories" },
+    { "source": "/categories/:id/questions", "destination": "https://trivia-api-liart.vercel.app/categories/:id/questions" },
+    { "source": "/questions/:id", "destination": "https://trivia-api-liart.vercel.app/questions/:id" },
+    { "source": "/questions", "destination": "https://trivia-api-liart.vercel.app/questions" },
+    { "source": "/searchQuestions", "destination": "https://trivia-api-liart.vercel.app/searchQuestions" },
+    { "source": "/quizzes", "destination": "https://trivia-api-liart.vercel.app/quizzes" }
+  ]
+}
